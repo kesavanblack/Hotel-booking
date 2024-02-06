@@ -1,0 +1,24 @@
+img{
+    position: absolute;
+}
+.center{
+    background-image: url(img.png);
+    background-size: cover;
+   margin: none;
+    padding: 80px;
+}
+
+#login{
+    position: relative;
+background: transparent;
+ backdrop-filter: blur(5px);
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+border: solid gray;
+display: flex;
+    justify-content: center;
+}
+input{
+    background-color: inherit;
+}
